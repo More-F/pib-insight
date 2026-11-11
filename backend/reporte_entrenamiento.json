@@ -1,0 +1,36 @@
+{
+  "tipo": "Red neuronal MLP de regresión (8 entradas, 4 neuronas ocultas, 1 salida)",
+  "objetivo": "Variación porcentual anual del PIB (no valor monetario)",
+  "fuente": "Archivo de la asignatura; hoja Cuadro 2 Var. % Anual; Fuente: DANE",
+  "n_ejemplos": 11,
+  "n_variables": 8,
+  "entrenamiento_cronologico": [
+    2001,
+    2008
+  ],
+  "prueba_cronologica": [
+    2009,
+    2011
+  ],
+  "mae_red_puntos_porcentuales": 1.4708,
+  "rmse_red_puntos_porcentuales": 1.7074,
+  "mae_baseline_media_puntos_porcentuales": 2.8999,
+  "casos_prueba": [
+    {
+      "anio": 2009,
+      "real": 5.7158,
+      "predicho": 8.4067
+    },
+    {
+      "anio": 2010,
+      "real": 7.8148,
+      "predicho": 8.7815
+    },
+    {
+      "anio": 2011,
+      "real": 11.2041,
+      "predicho": 10.4491
+    }
+  ],
+  "limitaciones": "Muestra extremadamente pequeña (11 registros). No usar para proyecciones económicas reales."
+}
